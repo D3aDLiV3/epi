@@ -1,0 +1,49 @@
+  <section class="client_section layout_padding">
+    <div class="d-flex justify-content-center">
+      <h2 class="custom_heading">
+        <br>
+        Cliente
+      </h2>
+    </div>
+    <div class="container">
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="client_container layout_padding">
+              <div class="img_box">
+                <img src="images/client.png" alt="">
+              </div>
+
+              <div class="detail_box">
+                <h5>
+                  <span>
+                    M
+                  </span>
+                  <span>
+                    A
+                  </span>
+                  <span>
+                    U
+                  </span>
+                  <span>
+                    R
+                  </span>
+                  <span>
+                    O
+                  </span>
+                </h5>
+                <p>
+                    Se solicito un aplicativo web para tener los promedios y las estadisticas sobre los resultados de las pruebas Saber Pro en la universidad.
+                </p>
+              </div>
+            </div>
+          </div>         
+        </div>
+      </div>
+    </div>
+  </section>
