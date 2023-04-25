@@ -218,3 +218,48 @@ a:focus {
   background-image: url(../images/menu.png);
   background-size: 35px;
 }
+
+/*Sneyder Aplication CSS*/
+.product_section .container {
+  
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.product_section .img-box {
+
+  margin: 1%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.product_section .img-box img {
+  width: 100%;
+}
+
+.product_section .img-box.box-1, .product_section .img-box.box-3 {
+  width: 43%;
+}
+
+.product_section .img-box.box-2, .product_section .img-box.box-4 {
+  align-items: center;
+  width: 30%;
+}
+
+.product_section a {
+  display: inline-block;
+  padding: 14px 35px;
+  background-color: transparent;
+  border: 1.5px solid #00ff00;
+  color: #00ff00;
+  color: #3cff3c;
+}
+
+.product_section a:hover {
+  background-color: #00ff00;
+  color: #ffffff;
+}
